@@ -42,6 +42,6 @@ public class Zwembad {
     }
 
     public double inhoud() {
-        return diepte + breedte + lengte;
+        return diepte * breedte * lengte;
     }
 }
